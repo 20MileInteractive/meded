@@ -1,4 +1,4 @@
-meded
-=====
+project-starter-template
+========================
 
-MedEd Conference
+Template for web projects with Hammer and Foundation4
