@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MedEd - The healthcare and educational facilities design and construction event for New England</title>
+
+  
+        <!-- Hammer reload -->
+          <script>
+            setInterval(function(){
+              try {
+                if(typeof ws != 'undefined' && ws.readyState == 1){return true;}
+                ws = new WebSocket('ws://'+(location.host || 'localhost').split(':')[0]+':35353')
+                ws.onopen = function(){ws.onclose = function(){document.location.reload()}}
+                ws.onmessage = function(){
+                  var links = document.getElementsByTagName('link'); 
+                    for (var i = 0; i < links.length;i++) { 
+                    var link = links[i]; 
+                    if (link.rel === 'stylesheet' && !link.href.match(/typekit/)) { 
+                      href = link.href.replace(/((&|\?)hammer=)[^&]+/,''); 
+                      link.href = href + (href.indexOf('?')>=0?'&':'?') + 'hammer='+(new Date().valueOf());
+                    }
+                  }
+                }
+              }catch(e){}
+            }, 1000)
+          </script>
+        <!-- /Hammer reload -->
+      
+
+  <link rel='stylesheet' href='assets/css/normalize.css'>
+<link rel='stylesheet' href='assets/css/vendor/normalize.css'>
+  <link rel='stylesheet' href='assets/css/styles.css'>
+
+  <script src='assets/js/vendor/custom.modernizr.js'></script>
+
+</head>
+<body>
+
+<div id="top">
+	<div class="row">
+		<section class="large-12 columns">
+			<img src="assets/img/meded-logo.jpg" alt="MedEd - The healthcare and educational facilities design and construction event for New England "/>
+			<h1>
+				The Healthcare and Educational Facilities Design and Construction Event for New&nbsp;England<br/>
+				<b>April 3 + 4, 2014</b>
+			</h1>
+		</section>
+	</div>	
+</div>
+<div id="middle">
+	<div class="row">
+		<div class="large-12 columns">
+			<p class="lead">
+				New England continues to be at the forefront in all aspects of healthcare and higher educational institutions. Med Ed Facilities is the event for you to meet these professional all in one place at one time. 
+			</p>
+		</div>
+
+	</div>
+</div>
+<div class="row">
+	<div class="large-6 columns">
+		<h3>For Attendees</h3>
+		<p>
+			Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Cras mattis consectetur purus sit amet fermentum.
+		</p>
+		<ol>
+			<li>An Item Goes Here</li>
+			<li>An Longer Item Name Goes Here</li>
+			<li>An Item Goes Here</li>
+
+		</ol>
+	</div>
+	<div class="large-6 columns">
+		<h3>For Exhibitors</h3>
+		<p>
+			Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Cras mattis consectetur purus sit amet fermentum.
+		</p>		
+		<ol>
+			<li>An Item Goes Here</li>
+			<li>An Longer Item Name Goes Here</li>
+			<li>An Item Goes Here</li>
+
+		</ol>
+	</div>	
+</div>
+<div id="subscribe">
+	<div class="row">
+		<div class="large-8 columns">
+			<h3>Subscribe Call To Action</h3>
+			<p class="lead">
+				Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Maecenas faucibus mollis interdum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+			</p>
+		</div>
+		<div id="form" class="large-4 columns">	
+			<h6>Join Our Mailing List</h6>
+			<form class="custom">		           
+				<div class="row">
+					<div class="small-6 columns">
+				            <label for="radio1"><input name="radio1" type="radio" id="radio1" style="display:none;"  ><span class="custom radio"></span> I want to Attend</label>
+				    </div>        
+					<div class="small-6 columns">
+				            <label for="radio1"><input name="radio1" type="radio" id="radio1" style="display:none;"  ><span class="custom radio"></span> I want to exhibit</label>
+				    </div>
+				</div>   
+
+				<div class="row collapse">
+					<div class="small-8 columns">
+				    	<input type="text" placeholder="Your Email...">
+				    </div>
+				    <div class="small-4 columns">
+				    	<a href="#" class="button prefix">Subscribe</a>
+				    </div>
+				</div>
+			</form>			
+		</div>
+	</div>
+</div>
+
+<footer>
+	<p>
+		Contact Information Will Go Here
+	</p>
+</footer>
+    <script src='assets/js/vendor/jquery.js'></script>
+    <script src='assets/js/vendor/foundation/foundation.js'></script>
+    <script src='assets/js/vendor/foundation/foundation.alerts.js'></script>
+    <script src='assets/js/vendor/foundation/foundation.clearing.js'></script>
+    <script src='assets/js/vendor/foundation/foundation.cookie.js'></script>
+    <script src='assets/js/vendor/foundation/foundation.dropdown.js'></script>
+    <script src='assets/js/vendor/foundation/foundation.forms.js'></script>
+    <script src='assets/js/vendor/foundation/foundation.joyride.js'></script>
+    <script src='assets/js/vendor/foundation/foundation.magellan.js'></script>
+    <script src='assets/js/vendor/foundation/foundation.orbit.js'></script>
+    <script src='assets/js/vendor/foundation/foundation.placeholder.js'></script>
+    <script src='assets/js/vendor/foundation/foundation.reveal.js'></script>
+    <script src='assets/js/vendor/foundation/foundation.section.js'></script>
+    <script src='assets/js/vendor/foundation/foundation.tooltips.js'></script>
+    <script src='assets/js/vendor/foundation/foundation.topbar.js'></script>
+	<script src='assets/js/script.js'></script>
+</body>
+</html>

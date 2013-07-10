@@ -1,0 +1,97 @@
+ul, ol{
+	list-style-position: inside;
+}
+
+#meded-logo{
+	width:300px;
+}
+
+#top{
+	img{
+		width:300px;
+		display:block;
+		margin:1rem auto;
+	}
+	h1{
+		font-size: 1.5rem;
+		font-weight:normal;
+		text-align:center;
+
+		b{
+			background:#eee;
+			display:inline-block;
+			padding:.5rem;
+			margin-top:.7rem;
+		}
+	}
+}
+
+
+#middle{
+	background:#eee;
+}
+
+
+
+#subscribe{
+	background:#eee;
+	margin:2rem auto;
+	padding:2rem 0;
+	h2{
+		text-align:center;
+	}
+
+	div.collapse{
+		margin-top:1rem;
+	}
+
+	.center{
+		text-align:center;
+	}
+ 
+	#form{
+		background:#ddd;
+		margin:1rem auto;
+		padding-top:1rem;
+	}
+}
+
+footer{
+	text-align:center;
+}
+
+@media only screen and (min-width: 50rem) {
+
+	#top{
+		img{
+			width:33%;
+			display:inline-block;
+			margin-right:2rem;
+			vertical-align:middle;
+		}
+		h1{
+			display:inline-block;
+			width:60%;
+			font-size: 1.5rem;
+			font-weight:normal;
+			vertical-align:middle;
+		}
+	}
+
+	#middle{
+		background:#eee url(map2.svg) bottom left no-repeat;
+		background-size:auto 100%;
+		margin:2rem auto;
+		padding:3rem 0 3rem 225px;
+		transition: all .25s ease-in;
+	}
+
+
+	#middle:hover{
+		background-size:auto 125%;
+		background-position: bottom left;
+		transition: all .6s ease-out;
+	}
+
+
+}
