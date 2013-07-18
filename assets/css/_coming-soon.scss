@@ -2,6 +2,8 @@ ul, ol{
 	list-style-position: inside;
 }
 
+p.lead {font-size: 1.2em; font-weight: 300;}
+
 #meded-logo{
 	width:300px;
 }
@@ -13,7 +15,7 @@ ul, ol{
 		margin:1rem auto;
 	}
 	h1{
-		font-size: 1.5rem;
+		font-size: 1.2rem;
 		font-weight:normal;
 		text-align:center;
 
@@ -22,6 +24,7 @@ ul, ol{
 			display:inline-block;
 			padding:.5rem;
 			margin-top:.7rem;
+			font-weight: 300;
 		}
 	}
 }
@@ -29,8 +32,9 @@ ul, ol{
 
 #middle{
 	background:#eee;
+	color: #fff;
+	font-size: 1.2em;
 }
-
 
 
 #subscribe{
@@ -72,17 +76,17 @@ footer{
 		h1{
 			display:inline-block;
 			width:60%;
-			font-size: 1.5rem;
+			font-size: 1.2rem;
 			font-weight:normal;
 			vertical-align:middle;
 		}
 	}
 
 	#middle{
-		background:#eee url(map2.svg) bottom left no-repeat;
+		background:transparent url(map3.svg) top left no-repeat;
 		background-size:auto 100%;
 		margin:2rem auto;
-		padding:3rem 0 3rem 225px;
+		padding:3rem 12rem 3rem 20rem;
 		transition: all .25s ease-in;
 	}
 
@@ -92,6 +96,8 @@ footer{
 		background-position: bottom left;
 		transition: all .6s ease-out;
 	}
+
+	#middle-outer {background: #eee url(blueprint.jpg) no-repeat center center; background-size: 100%;}
 
 
 }
