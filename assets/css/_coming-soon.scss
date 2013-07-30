@@ -2,7 +2,11 @@ ul, ol{
 	list-style-position: inside;
 }
 
-p.lead {font-size: 1.2em; font-weight: 300;}
+p.lead {
+	font-size: 1.2em; 
+	font-weight: 300;
+	text-shadow: 1px 1px 3px #333;
+}
 
 #meded-logo{
 	width:300px;
@@ -86,7 +90,7 @@ footer{
 		background:transparent url(map3.svg) top left no-repeat;
 		background-size:auto 100%;
 		margin:2rem auto;
-		padding:3rem 12rem 3rem 20rem;
+		padding:5rem 12rem 5rem 20rem;
 		transition: all .25s ease-in;
 	}
 
@@ -97,7 +101,7 @@ footer{
 		transition: all .6s ease-out;
 	}
 
-	#middle-outer {background: #eee url(exterior-blur.jpg) no-repeat center center; background-size: 100%;}
+	#middle-outer {background: #eee url(interior-blur2.jpg) no-repeat center center; background-size: 100%;}
 
 
 }
